@@ -8,7 +8,9 @@ public class Practice2 {
 		
 		System.out.println("C2,test1===>Test abc");
 		String url=System.getProperty("url");
+		String browser=System.getProperty("browser");
 		System.out.println(url);
+		System.out.println(browser);
 	}
 	@Test
 	void test2() {
